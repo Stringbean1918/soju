@@ -91,3 +91,4 @@ body:
       description: Attach relevant evidence. Check for account names, tokens and personal paths before posting.
 git checkout fix/search-discovery
 git rebase docs/open-source-launcher-positioning
+git push origin fix/search-discovery --force-with-lease
