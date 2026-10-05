@@ -92,3 +92,6 @@ body:
 git checkout fix/search-discovery
 git rebase docs/open-source-launcher-positioning
 git push origin fix/search-discovery --force-with-lease
+git fetch origin
+git checkout fix/search-discovery
+git merge origin/docs/open-source-launcher-positioning
