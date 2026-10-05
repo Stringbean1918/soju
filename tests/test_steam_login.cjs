@@ -106,4 +106,5 @@ test("partial legacy page can retry after its data finishes loading", async () =
     ctx[0].rgGames=[{appid:10,name:"Owned"}];
     const retried=await run(...ctx, ()=>{throw Error("not needed");});
     assert.equal(retried.state,"ready");
-});
+});git checkout docs/open-source-launcher-positioning
+git pull origin docs/open-source-launcher-positioning
