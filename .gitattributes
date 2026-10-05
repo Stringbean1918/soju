@@ -1,3 +1,5 @@
-
+git fetch origin
+git checkout fix/search-discovery
+git merge origin/docs/open-source-launcher-positioning
 # Unified diffs preserve blank context lines with a leading space.
 *.patch -whitespace
