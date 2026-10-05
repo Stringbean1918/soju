@@ -22,4 +22,4 @@ jobs:
           /tmp/soju-purchase-tests
       - name: Build and verify the native app
         run: bash scripts/build-app.sh
-softwareupdate --install-rosetta
+softwareupdate --install-rosetta2
