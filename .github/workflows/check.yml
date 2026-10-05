@@ -23,3 +23,5 @@ jobs:
       - name: Build and verify the native app
         run: bash scripts/build-app.sh
 softwareupdate --install-rosetta2
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license
+
