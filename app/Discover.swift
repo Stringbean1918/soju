@@ -12,7 +12,7 @@ struct StoreItem: Decodable, Identifiable {
     let windows: Bool
 }
 struct StoreResponse: Decodable {
-    let games: [StoreItem]
+    let games: [Rocksmith]
     let warnings: [String]
     let country: String
 }
